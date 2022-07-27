@@ -13,6 +13,14 @@ body{
     padding: 10px 20px;
     border-radius: 5px;
 }
+.modalButton{
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff;
+    color: #289BDE;
+    border: 0px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
 
 .carousel-caption{
     top: 9.25rem !important;
