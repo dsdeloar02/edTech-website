@@ -30,6 +30,35 @@ p{
     font-size:18px !important;
     font-weight:400 !important;
 }
+.courseTitle{
+    width: 60%;
+}
+.courseDetails p{
+    font-size: 16px !important;
+}
+.courseDetails span{
+    font-size: 16px !important;
+    color: #289BDE;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -58,6 +87,9 @@ p{
         padding: 7px 15px;
         border-radius: 5px;
     }
+    .courseContent{
+        padding: 15px 15px;
+    }
 }
 
 @media (min-width: 600px) and (max-width: 768px){
@@ -85,6 +117,9 @@ p{
         padding: 7px 15px;
         border-radius: 5px;
     }
+    .courseContent{
+        padding: 15px 15px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 992px){
@@ -110,5 +145,8 @@ p{
     }
     .carousel-item img{
         height: 450px !important;
+    }
+    .courseContent{
+        padding: 15px 15px;
     }
 }
