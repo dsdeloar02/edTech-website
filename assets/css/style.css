@@ -4,11 +4,111 @@ body{
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif !important;
 }
-h1{
-    color: red;
-}
 
 .customeButton{
     font-family: 'Poppins', sans-serif;
+    background-color: #289BDE;
+    color: #fff;
+    border: 0px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
 
+.carousel-caption{
+    top: 9.25rem !important;
+    width: 50%;
+}
+.carousel-item{
+    position: relative;
+}
+
+.h1{
+    font-size:55px !important;
+    font-weight:600 !important;
+}
+p{
+    font-size:18px !important;
+    font-weight:400 !important;
+}
+
+
+
+@media (max-width: 600px){    
+    .h1{
+        font-size:26px !important;
+        font-weight:600 !important;
+    }
+    .carousel-caption{
+        left: 5% !important;
+        top: 3rem !important;
+        width: 90%;
+    }
+    .carousel-item img{
+        height: 300px !important;
+    }
+    .p{
+        font-size:14px !important;
+        font-weight:400 !important;
+    }
+    .customeButton{
+        font-family: 'Poppins', sans-serif;
+        background-color: #289BDE;
+        color: #fff;
+        border: 0px;
+        padding: 7px 15px;
+        border-radius: 5px;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 768px){
+    .h1{
+        font-size:35px !important;
+        font-weight:600 !important;
+    }
+    .carousel-caption{
+        left: 5% !important;
+        top: 5rem !important;
+        width: 90%;
+    }
+    .carousel-item img{
+        height: 350px !important;
+    }
+    .p{
+        font-size:14px !important;
+        font-weight:400 !important;
+    }
+    .customeButton{
+        font-family: 'Poppins', sans-serif;
+        background-color: #289BDE;
+        color: #fff;
+        border: 0px;
+        padding: 7px 15px;
+        border-radius: 5px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px){
+    .h1{
+        font-size:45px !important;
+        font-weight:600 !important;
+    }
+    .carousel-caption{
+        left: 14% !important;
+        top: 5rem !important;
+        width: 70%;
+    }
+    .carousel-item img{
+        height: 400px !important;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+    .carousel-caption{
+        left: 14% !important;
+        top: 5rem !important;
+        width: 70%;
+    }
+    .carousel-item img{
+        height: 450px !important;
+    }
 }
