@@ -7,6 +7,12 @@ body{
 .bg-Modal{
     background-color:#289BDE ;
 }
+.width-75{
+    width: 80% !important;
+}
+.width-50{
+    width: 50%;
+}
 
 .customeButton{
     font-family: 'Poppins', sans-serif;
@@ -24,10 +30,6 @@ body{
     padding: 10px 20px;
     border-radius: 5px;
 }
-.carousel-caption{
-    top: 9.25rem !important;
-    width: 50%;
-}
 .h1{
     font-size:55px !important;
     font-weight:600 !important;
@@ -44,6 +46,44 @@ body{
     color: #289BDE;
     font-weight: 600;
 }
+
+
+.carousel-item{
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+}
+.bannerImg{
+    background-image: url(../images/cover/cover-1.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+.bannerImg1{
+    background-image: url(../images/cover/cover-2.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+.bannerImg2{
+    background-image: url(../images/cover/cover-3.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+.slider-caption{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+
+
+
+
 .footerMenu ul{
     display: flex;
     flex-direction: row;
@@ -97,14 +137,6 @@ body{
         font-size:26px !important;
         font-weight:600 !important;
     }
-    .carousel-caption{
-        left: 5% !important;
-        top: 3rem !important;
-        width: 90%;
-    }
-    .carousel-item img{
-        height: 300px !important;
-    }
     .p{
         font-size:14px !important;
         font-weight:400 !important;
@@ -115,21 +147,22 @@ body{
     .courseContent{
         padding: 15px 15px;
     }
+    .width-75{
+        width: 90% !important;
+    }
+    .width-50{
+        width: 80%;
+    }
+    .carousel-item{
+        height: 300px; 
+    }
 }
 
-@media (min-width: 600px) and (max-width: 768px){
+@media (min-width: 600px) and (max-width: 999px){
     .h1{
         font-size:35px !important;
         font-weight:600 !important;
     }
-    .carousel-caption{
-        left: 5% !important;
-        top: 5rem !important;
-        width: 90%;
-    }
-    .carousel-item img{
-        height: 350px !important;
-    }
     .p{
         font-size:14px !important;
         font-weight:400 !important;
@@ -140,19 +173,20 @@ body{
     .courseContent{
         padding: 15px 15px;
     }
+    .width-50{
+        width: 85%;
+    }
+    .carousel-item{
+        height: 350px; 
+    }
 }
 
-@media (min-width: 768px) and (max-width: 1199px){
+@media (min-width: 999px) and (max-width: 1199px){
     .h1{
         font-size:45px !important;
         font-weight:600 !important;
     }
-    .carousel-caption{
-        left: 14% !important;
-        top: 5.75rem !important;
-        width: 70%;
-    }
-    .carousel-item img{
-        height: 400px !important;
+    .width-50{
+        width: 80%;
     }
 }
