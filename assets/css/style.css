@@ -44,6 +44,53 @@ body{
     color: #289BDE;
     font-weight: 600;
 }
+.footerMenu ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0px;
+    padding-left: 0px;
+
+}
+
+.footerMenu ul li{
+    list-style: none;
+    margin: 10px 15px;
+}
+.footerMenu ul li a{
+    text-decoration: none;
+    color: rgb(212, 212, 212);
+}
+.fa-facebook-f {
+    background: #9b9b9b66;
+    padding: 7px 10px;
+    border-radius: 15px;
+    color: rgb(128, 128, 128);
+    transition: 0.4s;
+}
+.fa-facebook-f:hover {
+    background-color: #fff !important;
+    color: #000;
+}
+.fa-instagram {
+    background: #9b9b9b66;
+    padding: 7px 9px;
+    border-radius: 15px;
+}
+.fa-instagram:hover {
+    background-color: #fff !important;
+    color: #000;
+}
+.fa-twitter {
+    background: #9b9b9b66;
+    padding: 7px 8px;
+    border-radius: 15px;
+}
+.fa-twitter:hover {
+    background-color: #fff !important;
+    color: #000;
+}
 
 @media (max-width: 600px){    
     .h1{
