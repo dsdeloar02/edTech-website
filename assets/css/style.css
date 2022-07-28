@@ -4,6 +4,9 @@ body{
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif !important;
 }
+.bg-Modal{
+    background-color:#289BDE ;
+}
 
 .customeButton{
     font-family: 'Poppins', sans-serif;
@@ -21,25 +24,17 @@ body{
     padding: 10px 20px;
     border-radius: 5px;
 }
-
 .carousel-caption{
     top: 9.25rem !important;
     width: 50%;
 }
-.carousel-item{
-    position: relative;
-}
-
 .h1{
     font-size:55px !important;
     font-weight:600 !important;
 }
-p{
+.p{
     font-size:18px !important;
     font-weight:400 !important;
-}
-.courseTitle{
-    width: 60%;
 }
 .courseDetails p{
     font-size: 16px !important;
@@ -49,26 +44,6 @@ p{
     color: #289BDE;
     font-weight: 600;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @media (max-width: 600px){    
     .h1{
@@ -88,12 +63,7 @@ p{
         font-weight:400 !important;
     }
     .customeButton{
-        font-family: 'Poppins', sans-serif;
-        background-color: #289BDE;
-        color: #fff;
-        border: 0px;
         padding: 7px 15px;
-        border-radius: 5px;
     }
     .courseContent{
         padding: 15px 15px;
@@ -118,43 +88,24 @@ p{
         font-weight:400 !important;
     }
     .customeButton{
-        font-family: 'Poppins', sans-serif;
-        background-color: #289BDE;
-        color: #fff;
-        border: 0px;
         padding: 7px 15px;
-        border-radius: 5px;
     }
     .courseContent{
         padding: 15px 15px;
     }
 }
 
-@media (min-width: 768px) and (max-width: 992px){
+@media (min-width: 768px) and (max-width: 1199px){
     .h1{
         font-size:45px !important;
         font-weight:600 !important;
     }
     .carousel-caption{
         left: 14% !important;
-        top: 5rem !important;
+        top: 5.75rem !important;
         width: 70%;
     }
     .carousel-item img{
         height: 400px !important;
-    }
-}
-
-@media (min-width: 992px) and (max-width: 1199px){
-    .carousel-caption{
-        left: 14% !important;
-        top: 5rem !important;
-        width: 70%;
-    }
-    .carousel-item img{
-        height: 450px !important;
-    }
-    .courseContent{
-        padding: 15px 15px;
     }
 }
